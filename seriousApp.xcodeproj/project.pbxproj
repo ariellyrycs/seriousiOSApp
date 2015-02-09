@@ -14,7 +14,6 @@
 		A69E2A121A8951DA00CECC28 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A69E2A111A8951DA00CECC28 /* Images.xcassets */; };
 		A69E2A151A8951DA00CECC28 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A69E2A131A8951DA00CECC28 /* LaunchScreen.xib */; };
 		A69E2A211A8951DA00CECC28 /* seriousAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A69E2A201A8951DA00CECC28 /* seriousAppTests.m */; };
-		A69E2A2B1A89537900CECC28 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = A69E2A2A1A89537900CECC28 /* Podfile */; };
 		E3F70F96FE927440E390428D /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D8C145301C71287E6F2F9E1 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -43,7 +42,6 @@
 		A69E2A1A1A8951DA00CECC28 /* seriousAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = seriousAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A69E2A1F1A8951DA00CECC28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A69E2A201A8951DA00CECC28 /* seriousAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = seriousAppTests.m; sourceTree = "<group>"; };
-		A69E2A2A1A89537900CECC28 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		F365987C42C89E293F797254 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		FAECA743A8BC1AA2D211300C /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -70,7 +68,6 @@
 		A69E29F81A8951DA00CECC28 = {
 			isa = PBXGroup;
 			children = (
-				A69E2A2A1A89537900CECC28 /* Podfile */,
 				A69E2A031A8951DA00CECC28 /* seriousApp */,
 				A69E2A1D1A8951DA00CECC28 /* seriousAppTests */,
 				A69E2A021A8951DA00CECC28 /* Products */,
@@ -230,7 +227,6 @@
 			files = (
 				A69E2A101A8951DA00CECC28 /* Main.storyboard in Resources */,
 				A69E2A151A8951DA00CECC28 /* LaunchScreen.xib in Resources */,
-				A69E2A2B1A89537900CECC28 /* Podfile in Resources */,
 				A69E2A121A8951DA00CECC28 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
